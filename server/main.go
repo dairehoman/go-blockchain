@@ -4,11 +4,9 @@ import (
 	"log"
 	"net"
 
-	"golang.org/x/net/context"
-
-	"./blockchain"
-
 	"../proto"
+	"./blockchain"
+	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
 

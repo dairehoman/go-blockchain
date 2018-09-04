@@ -5,10 +5,8 @@ import (
 	"log"
 	"time"
 
-	"golang.org/x/net/context"
-
 	"../proto"
-
+	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
 
